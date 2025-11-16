@@ -1,6 +1,5 @@
--- ================================
+
 -- 1. CREATE TABLE
--- ================================
 CREATE TABLE netflix (
     show_id       VARCHAR(6),
     type          VARCHAR(10),
@@ -16,9 +15,9 @@ CREATE TABLE netflix (
     description   VARCHAR(300)
 );
 
--- ================================
+
 -- 2. BASIC CHECKS
--- ================================
+
 
 -- Total rows
 SELECT COUNT(*) FROM netflix;
@@ -26,9 +25,8 @@ SELECT COUNT(*) FROM netflix;
 -- Distinct type values
 SELECT DISTINCT type FROM netflix;
 
--- ================================
--- 3. ANALYSIS QUERIES
--- ================================
+
+
 
 -- 1. Count Movies vs TV Shows
 SELECT 
@@ -163,3 +161,4 @@ SELECT
     COUNT(*) AS total_content
 FROM new_table
 GROUP BY 1;
+

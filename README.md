@@ -6,19 +6,6 @@ A complete end-to-end SQL analysis project performed on the **Netflix Movies & T
 
 This project is perfect for showcasing SQL skills for **Data Analyst / Data Science internships and jobs**.
 
----
-
-## 📂 Project Structure
-
-```
-📁 Netflix-SQL-Project
-│
-├── 📄 README.md        # Documentation (this file)
-├── 📄 netflix.sql      # Full SQL script with all queries
-└── 📄 dataset.csv      # Netflix dataset (not included here)
-```
-
----
 
 ## 🎯 Project Goals
 
@@ -39,7 +26,7 @@ This project is perfect for showcasing SQL skills for **Data Analyst / Data Scie
 ## 🛠️ Tech Stack
 
 * **PostgreSQL** (Recommended)
-* Tools like **pgAdmin**, **DBeaver**, or **psql CLI**
+
 
 ---
 
@@ -120,17 +107,7 @@ The entire project script is included in `netflix.sql`. It contains **all 15 ana
 
 ---
 
-## 🚀 How to Run
 
-1. Create the table using the schema above.
-2. Import the dataset using pgAdmin/DBeaver.
-3. Run the queries from `netflix.sql`.
-4. Modify and extend based on learning goals.
 
 ---
 
-## 🏁 Final Notes
-
-This project is structured to look professional on GitHub and LinkedIn. Add screenshots or your own insights to make it stand out.
-
-If you want a **LinkedIn post**, just ask and I'll generate it.
